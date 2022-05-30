@@ -4,11 +4,11 @@ using UnityEngine.SceneManagement;
 
 public class StartupManager : MonoBehaviour
 {
-    public const string StartupScene = "StartUp";
+    private const string StartupScene = "StartUp";
 
-    public const string TutorialLevel = "SampleScene";
+    private const string TutorialLevel = "SampleScene";
 
-    public const string UIScene = "UI";
+    private const string UIScene = "UI";
 
     IEnumerator Start()
     {
