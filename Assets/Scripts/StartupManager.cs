@@ -6,7 +6,7 @@ public class StartupManager : MonoBehaviour
 {
     private const string StartupScene = "StartUp";
 
-    private const string TutorialLevel = "SampleScene";
+    private const string TutorialLevel = "BarCounter";
 
     private const string UIScene = "UI";
 
