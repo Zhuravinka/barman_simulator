@@ -1,9 +1,21 @@
+using System;
 using System.Linq;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
     private Window[] _windows;
+
+    private void OnEnable()
+    {
+        MainWindow.Started += MainWindow_Started;
+    }
+
+    private void OnDisable()
+    {
+        MainWindow.Started -= MainWindow_Started;
+    }
+    
     private void Awake()
     {
         _windows = GetComponentsInChildren<Window>();
@@ -23,5 +35,10 @@ public class UIManager : MonoBehaviour
         {
             window.Close();           
         }
+    }
+
+    private void MainWindow_Started()
+    {
+        ShowWindow<GameWindow>();
     }
 }
