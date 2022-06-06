@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using UnityEngine;
 
@@ -19,6 +18,7 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         _windows = GetComponentsInChildren<Window>();
+        ShowWindow<MainWindow>();
         DontDestroyOnLoad(gameObject);
     }
 
