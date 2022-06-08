@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/UI1.unity
+    path: Assets/Scenes/UI.unity
     guid: dcaaee0bad1314523b758c74090edbde
   - enabled: 1
     path: Assets/Scenes/BarCounter.unity
     guid: 9280dfa9c5a4ebd4b9e76ffede1c9523
+  - enabled: 0
+    path: Assets/Scenes/UI.unity
+    guid: 05fbf0d7655364e51a942a2e012f1b85
   m_configObjects: {}
