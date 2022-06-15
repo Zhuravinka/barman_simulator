@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Window.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4cf57639439a4d1893588ee06e454ae73600/38/669955ea/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/992585620d64427198ddf3a0e146773313e400/79/a300dabf/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d8b2be36d8c44d1092cb64bb4ab0381413bc00/69/b0dd7a11/Random.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,7 +75,7 @@
       <workItem from="1653900571243" duration="4490000" />
       <workItem from="1654189043191" duration="757000" />
       <workItem from="1654203688643" duration="10618000" />
-      <workItem from="1654608569607" duration="1166000" />
+      <workItem from="1654608569607" duration="3725000" />
     </task>
     <servers />
   </component>
