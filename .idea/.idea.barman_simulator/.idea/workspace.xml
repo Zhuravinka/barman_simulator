@@ -3,9 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="145940b8-3cfd-41a4-99ab-20a55c06d68c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.barman_simulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.barman_simulator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Steel.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Steel.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wood.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wood.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bottle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Guest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Guest.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Measuring cup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Measuring cup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/glass.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/glass.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/BarCounter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BarCounter.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +86,7 @@
       <workItem from="1654203688643" duration="10618000" />
       <workItem from="1654608569607" duration="3725000" />
       <workItem from="1656268476820" duration="909000" />
+      <workItem from="1656850578266" duration="1113000" />
     </task>
     <servers />
   </component>
