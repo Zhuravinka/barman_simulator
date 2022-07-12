@@ -8,7 +8,7 @@ public class SwipeDetection : MonoBehaviour
     private Vector2 _tapPoss;
     private Vector2 _swipeDelta;
 
-    private float _deadZone = 80f;
+    private float _deadZone = 30f;
 
     private bool isMobile;
     private bool isSwiping;
@@ -41,15 +41,19 @@ public class SwipeDetection : MonoBehaviour
     {
         _swipeDelta = Vector2.zero;
 
-        if (Input.touchCount > 0)
+        if (isSwiping)
         {
-            _swipeDelta = Input.GetTouch(0).position - _tapPoss;
+            if (Input.touchCount > 0)
+            {
+                _swipeDelta = Input.GetTouch(0).position - _tapPoss;
+            }
         }
-
+        
         if (_swipeDelta.magnitude > _deadZone)
         {
             if (Mathf.Abs(_swipeDelta.x) > Mathf.Abs(_swipeDelta.y))
             {
+                Debug.Log(_swipeDelta);
                 Swiped(_swipeDelta.x > 0 ? Vector2.right : Vector2.left);
                 ResetSwipe();
             }
