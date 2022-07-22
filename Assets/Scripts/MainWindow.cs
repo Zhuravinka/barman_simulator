@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class MainWindow : Window
 {
-    public static event Action Started = delegate { }; 
+    public static event Action Started = delegate {  }; 
 
     [SerializeField]
     private Button _startGameButton = null;
