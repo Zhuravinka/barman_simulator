@@ -53,7 +53,6 @@ public class SwipeDetection : MonoBehaviour
         {
             if (Mathf.Abs(_swipeDelta.x) > Mathf.Abs(_swipeDelta.y))
             {
-                Debug.Log(_swipeDelta);
                 Swiped(_swipeDelta.x > 0 ? Vector2.right : Vector2.left);
                 ResetSwipe();
             }

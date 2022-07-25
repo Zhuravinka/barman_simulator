@@ -6,8 +6,6 @@ public class GlassesSelect : MonoBehaviour
     private GameObject[] _glasses;
 
     private int _currentGlass;
-    private bool isRight;
-    private bool isLeft;
 
     private void OnEnable()
     {
