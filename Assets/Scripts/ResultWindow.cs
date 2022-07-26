@@ -1,0 +1,4 @@
+public class ResultWindow : Window
+{
+    
+}

@@ -4,12 +4,12 @@ using UnityEngine.SceneManagement;
 
 public class StartupManager : MonoBehaviour
 {
-    private const string StartupScene = "StartUp";
+    public const string StartupScene = "StartUp";
+    
+    public const string UIScene = "UI";
 
-    private const string TutorialLevel = "SampleScene";
-
-    private const string UIScene = "UI";
-
+    public const string TutorialLevel = "BarCounter";
+    
     IEnumerator Start()
     {
         DontDestroyOnLoad(gameObject);
